@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Продуктовий магазин — демо</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <a href="./index.html"><div class="logo">GS</div></a>
+      <div>
+        <div class="site-title">GreenShop</div>
+        <div style="font-size:12px;color:var(--muted)">свіжі продукти щодня</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input id="search" class="search" placeholder="Пошук товарів (наприклад: яблука, молоко)...">
+      <select id="category" class="select">
+        <option value="all">Усі категорії</option>
+      </select>
+      <button id="openCart" class="cart-btn">Кошик (<span id="cartCount">0</span>)</button>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 style="margin:6px 0 16px">Популярні товари</h2>
+      <div id="products" class="grid"></div>
+    </section>
+  </main>
+
+  <div id="overlay" class="overlay">
+    <div class="cart" role="dialog" aria-modal="true">
+      <div style="display:flex; justify-content:space-between; align-items:center">
+        <h3>Ваш кошик</h3>
+        <button id="closeCart" style="background:transparent;border:0;font-size:18px;cursor:pointer">✕</button>
+      </div>
+      <div class="cart-list" id="cartList"></div>
+      <div style="display:flex; justify-content:space-between; align-items:center">
+        <div style="font-weight:700">Разом: <span id="cartTotal">0</span> ₴</div>
+        <div style="display:flex; gap:8px">
+          <button id="clearCart" style="padding:8px 10px;border-radius:8px;border:1px solid #e6e9ee;background:#fff">Очистити</button>
+          <button id="checkout" class="add">Оформити замовлення</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>Це демо-магазин. Дані збережено в локальному сховищі браузера.</footer>
+  <script src="./main.js"></script>
+</body>
+</html>
