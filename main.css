@@ -170,6 +170,14 @@ body {
     margin-top: 12px
 }
 
+.hero-right{
+    background-image: url(./ph1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
 @media (max-width:600px) {
     .hero {
         flex-direction: column;
