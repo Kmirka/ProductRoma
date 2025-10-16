@@ -7,7 +7,12 @@ const PRODUCTS = [
   { id: 5, name: 'Хліб житній(15 шт)', price: 28, category: 'Випічка', img: 'https://monolit.te.ua/media/cache/4a/e9/4ae9467eabb2931b8e30eb821afbe69e.jpg' },
   { id: 6, name: 'Картопля (8 кг)', price: 20, category: 'Овочі', img: 'https://yaskravaklumba.com.ua/image/cache/catalog/semena/kartofel/corinna-2-500x500.jpg' },
   { id: 7, name: 'Морква (12 кг)', price: 22, category: 'Овочі', img: 'https://gardenclub.ua/wp-content/uploads/2023/01/2a234fbc76e45a9149bc55ef47b4a58a794cdb49-1.jpeg' },
-  { id: 8, name: 'Яйця 10 шт', price: 60, category: 'Молочні', img: 'https://golden-flamingo.com.ua/wp-content/uploads/2024/01/yajcz.jpg' }
+  { id: 8, name: 'Яйця 10 шт', price: 60, category: 'Молочні', img: 'https://golden-flamingo.com.ua/wp-content/uploads/2024/01/yajcz.jpg' },
+  { id: 9, name: 'Апельсини (5 кг)', price: 70, category: 'Фрукти', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWTf-q7NUGshCbLG6_4pBJKIwvxkFCd40dnw&s' },
+  { id: 10, name: 'булочка з маком (20 шт)', price: 15, category: 'Випічка', img: 'https://i.obozrevatel.com/food/recipemain/2019/1/17/depositphotos133055330-stock-photo-buns-with-poppy-seeds-and.jpg?size=636x424' },
+  { id: 11, name: 'Печиво (1 кг)', price: 80, category: 'Випічка', img: 'https://klymovska.com/wp-content/uploads/2022/11/cookies-with-chocolate-and-nuts.jpg' },
+  { id: 12, name: 'Груша (5 кг)', price: 50, category: 'Фрукти', img: 'https://yaskravaklumba.com.ua/image/catalog/blog_l/top/grusha/grushadjushes3.jpg' },
+
 ];
 
 // State
