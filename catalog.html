@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="uk">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,13 +8,16 @@
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
   <header>
     <div class="brand">
-      <a href="./index.html"><div class="logo">GS</div></a>
+      <div class="logo">GS</div>
       <div>
         <div class="site-title">GreenShop</div>
-        <div style="font-size:12px;color:var(--muted)">свіжі продукти щодня</div>
+        <div class="back-link">
+          <a href="./index.html" class="button">← повернутись назад</a>
+        </div>
       </div>
     </div>
 
@@ -43,7 +47,8 @@
       <div style="display:flex; justify-content:space-between; align-items:center">
         <div style="font-weight:700">Разом: <span id="cartTotal">0</span> ₴</div>
         <div style="display:flex; gap:8px">
-          <button id="clearCart" style="padding:8px 10px;border-radius:8px;border:1px solid #e6e9ee;background:#fff">Очистити</button>
+          <button id="clearCart"
+            style="padding:8px 10px;border-radius:8px;border:1px solid #e6e9ee;background:#fff">Очистити</button>
           <button id="checkout" class="add">Оформити замовлення</button>
         </div>
       </div>
@@ -53,4 +58,5 @@
   <!-- <footer>Це демо-магазин. Дані збережено в локальному сховищі браузера.</footer> -->
   <script src="./main.js"></script>
 </body>
+
 </html>
